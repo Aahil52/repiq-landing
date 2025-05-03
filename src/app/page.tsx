@@ -57,7 +57,7 @@ export default function Home() {
               placeholder="name@email.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#353739] text-lg shadow-sm bg-white/90"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#353739] text-lg shadow-sm bg-white/90 text-gray-900 placeholder-gray-500"
               required
             />
             <button
