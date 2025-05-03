@@ -49,8 +49,8 @@ export default function Home() {
         />
         <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-6">
           <h1 className="text-7xl sm:text-8xl font-bold text-white drop-shadow-[0_4px_32px_rgba(0,0,0,0.7)] mt-2 mb-2 lg:mt-0 lg:mb-1">RepIQ</h1>
-          <span className="text-3xl sm:text-4xl font-semibold text-gray-400 drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">Train with Intelligence</span>
-          <span className="text-3xl sm:text-4xl font-semibold text-gray-400 drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">Fail with Precision</span>
+          <span className="text-3xl sm:text-4xl font-semibold text-[#2abfd7] drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">Train with Intelligence</span>
+          <span className="text-3xl sm:text-4xl font-semibold text-[#2abfd7] drop-shadow-[0_2px_12px_rgba(0,0,0,0.7)]">Fail with Precision</span>
           <form onSubmit={handleSubmit} className="w-full max-w-xs flex flex-col items-center mt-6 gap-3">
             <input
               type="email"
