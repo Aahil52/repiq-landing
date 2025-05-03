@@ -16,12 +16,23 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('/neural-pattern.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: var(--font-sans);
+  z-index: -1;
 }
 
 .hero-content {
