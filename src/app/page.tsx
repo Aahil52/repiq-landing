@@ -14,8 +14,7 @@ export default function Home() {
     setSubmitStatus("idle");
 
     try {
-      // Replace this URL with your actual API endpoint
-      const response = await fetch("https://api.example.com/waitlist", {
+      const response = await fetch("/api/waitlist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -44,6 +43,7 @@ export default function Home() {
           alt="Arm holding dumbbell"
           width={220}
           height={220}
+          style={{ width: "auto", height: "auto" }}
           priority
           className="drop-shadow-2xl flex-shrink-0"
         />
